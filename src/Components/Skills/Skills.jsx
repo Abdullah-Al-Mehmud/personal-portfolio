@@ -31,7 +31,7 @@ const Skills = () => {
             />
           </div>
         </Marquee>
-        {/* <Marquee className="flex justify-center mt-5 pl-36">
+        <Marquee className="flex justify-center mt-5 pl-36">
           <div>
             <img
               className="h-24 gap-5"
@@ -39,7 +39,7 @@ const Skills = () => {
               alt=""
             />
           </div>
-        </Marquee> */}
+        </Marquee>
       </div>
     </div>
   );

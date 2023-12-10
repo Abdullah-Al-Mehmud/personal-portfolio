@@ -1,14 +1,13 @@
-import { useEffect, useState } from "react";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 import Marquee from "react-fast-marquee";
 const Skills = () => {
-  const [icons, setIcons] = useState([]);
   useEffect(() => {
-    fetch("icons.json")
-      .then((res) => res.json())
-      .then((data) => setIcons(data));
+    Aos.init();
   }, []);
   return (
-    <div className="mt-20">
+    <div data-aos="fade-up" className="mt-20">
       <h1 className="flex justify-center text-5xl font-bold">
         My S{" "}
         <span>

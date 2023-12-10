@@ -1,10 +1,19 @@
 import animationData from "../../assets/images/hero.json";
 import Lottie from "react-lottie";
 import { Typewriter } from "react-simple-typewriter";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Hero = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="lg:h-[800px] h-[1200px] md:pt-24 pt-32 relative bg-gradient-to-r from-[#9926f0f2] to-[#d122e3f2]">
-      <div className="md:flex max-w-6xl lg:gap-0 gap-5 mx-auto items-center">
+    <div
+      data-aos="fade-up"
+      className="lg:h-[900px] h-[1200px] md:pt-24 pt-32 relative bg-gradient-to-r from-[#9926f0f2] to-[#d122e3f2]">
+      <div className="md:flex max-w-6xl lg:gap-0 gap-5 mx-auto items-center mt-20">
         <div className="text-5xl font-bold w-full px-5 text-white">
           <h1>Hey!, I'm Mehmud</h1>
           <p className="mt-4">

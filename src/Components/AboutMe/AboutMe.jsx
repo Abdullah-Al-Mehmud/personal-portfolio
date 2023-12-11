@@ -1,8 +1,17 @@
 import profileImg from "../../assets/images/profileImg.jpg";
 import { Typewriter } from "react-simple-typewriter";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const AboutMe = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="flex max-w-5xl mx-auto mt-20 items-center gap-10">
+    <div
+      data-aos="fade-up"
+      className="flex max-w-5xl mx-auto mt-20 items-center gap-10">
       <div className="w-full">
         <img
           className="h-[500px] shadow-lg rounded-2xl"

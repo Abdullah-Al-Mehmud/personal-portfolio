@@ -10,7 +10,7 @@ const Education = () => {
         </span>{" "}
         cation Qualification
       </h1>
-      <ul className="timeline mt-16 timeline-snap-icon max-md:timeline-compact timeline-vertical">
+      <ul className="timeline my-16 timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">
             <svg

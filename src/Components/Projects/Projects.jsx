@@ -1,5 +1,7 @@
 import Project1 from "./Project1/Project1";
 import fireImg from "../../assets/images/fire.png";
+import Project2 from "./Project2/Project2";
+import Projects3 from "./Projects3/Projects3";
 
 const Projects = () => {
   return (
@@ -14,8 +16,10 @@ const Projects = () => {
           jects
         </h1>
       </div>
-      <div>
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 px-5 py-10">
         <Project1></Project1>
+        <Project2></Project2>
+        <Projects3></Projects3>
       </div>
     </div>
   );

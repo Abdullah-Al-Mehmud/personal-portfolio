@@ -1,30 +1,28 @@
 import { FaGithub } from "react-icons/fa6";
 import { MdLiveTv } from "react-icons/md";
-import newsImg from "../../../assets/images/globeNews.png";
-const Project1 = () => {
+import automotiveImg from "../../../assets/images/automotive.png";
+const Projects3 = () => {
   return (
     <div>
       <div className="card  bg-base-100 shadow-xl">
         <figure>
-          <img className="h-52" src={newsImg} />
+          <img className="h-52" src={automotiveImg} />
         </figure>
         <div className="card-body">
-          <h2 className="card-title text-2xl">Globe News</h2>
+          <h2 className="card-title text-2xl">Automotive Website</h2>
           <p className="font-bold">
-            This is a Full Stack News Portal Website.You also can login and
-            logout to our website and also post articles and read articles.There
-            is an admin panel also to manage content.For full information visit
-            github.
+            This is a Full Stack Automotive Website.You can add products and
+            also can purchase products.You can see different kinds of Brands to
+            purchase .For full information visit github.
           </p>
-          <p className="mt-2 font-bold ">
-            Tech Used :
-            React,NodeJs,ExpressJs,Mongoose,TailwindCss,React-Router,Axios
+          <p className="mt-2 font-bold">
+            Tech Used : React,nodeJs,ExpressJs,MongoDB,TailwindCss,React-Router
           </p>
           <div className="mt-3 flex justify-between">
             <div>
               <a
                 className="font-bold text-blue-500 flex items-center gap-1"
-                href="https://globenews-f1176.web.app/"
+                href="https://automotive-project-a89be.web.app/"
                 target="blank">
                 <MdLiveTv size={30} />{" "}
                 <span className="mt-1">Live Preview</span>
@@ -33,7 +31,7 @@ const Project1 = () => {
             <div>
               <a
                 className="font-bold text-blue-500 flex items-center gap-1"
-                href="https://github.com/Abdullah-Al-Mehmud/GlobeNews-client"
+                href="https://github.com/Abdullah-Al-Mehmud/automotive-CRUD-client"
                 target="blank">
                 <FaGithub size={30} /> <span className="mt-1">View Github</span>
               </a>
@@ -45,4 +43,4 @@ const Project1 = () => {
   );
 };
 
-export default Project1;
+export default Projects3;

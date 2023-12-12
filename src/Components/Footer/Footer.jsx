@@ -1,7 +1,14 @@
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Footer = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div>
+    <div data-aos="fade-up">
       <footer className="footer footer-center p-10 text-white  bg-gradient-to-r from-[#9926f0f2] to-[#d122e3f2]">
         <aside>
           <a className="text-2xl font-bold">Abdullah Al Mehmud</a>

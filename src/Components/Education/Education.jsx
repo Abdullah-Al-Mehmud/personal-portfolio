@@ -1,15 +1,28 @@
 import educationImg from "../../assets/images/education.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+
 const Education = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
-    <div className="mt-20">
-      <h1 className="flex justify-center items-center font-bold text-5xl">
-        Ed{" "}
-        <span>
-          {" "}
-          <img className="w-14" src={educationImg} />{" "}
-        </span>{" "}
-        cation Qualification
-      </h1>
+    <div data-aos="fade-up" className="mt-20">
+      <div className="md:flex justify-center items-center gap-4">
+        <h1 className="flex justify-center items-center font-bold text-5xl">
+          Ed{" "}
+          <span>
+            {" "}
+            <img className="w-14" src={educationImg} />{" "}
+          </span>{" "}
+          cation
+        </h1>
+        <h1 className="text-center md:mt-0 mt-2 font-bold text-5xl">
+          Qualification
+        </h1>
+      </div>
+
       <ul className="timeline my-16 timeline-snap-icon max-md:timeline-compact timeline-vertical">
         <li>
           <div className="timeline-middle">

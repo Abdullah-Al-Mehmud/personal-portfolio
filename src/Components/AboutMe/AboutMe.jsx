@@ -11,15 +11,15 @@ const AboutMe = () => {
   return (
     <div
       data-aos="fade-up"
-      className="flex max-w-5xl mx-auto mt-20 items-center gap-10">
-      <div className="w-full">
+      className="md:flex max-w-5xl mx-auto mt-20 items-center gap-10">
+      <div className="w-full ">
         <img
           className="h-[500px] shadow-lg rounded-2xl"
           src={profileImg}
           alt=""
         />
       </div>
-      <div className="w-full">
+      <div className="w-full order-1">
         <h1 className="font-bold text-5xl ">About Me</h1>
         <h2 className="mt-4 text-xl font-bold">
           I AM AVAILABLE FOR <br />

@@ -15,9 +15,15 @@ const Projects3 = () => {
             also can purchase products.You can see different kinds of Brands to
             purchase .For full information visit github.
           </p>
-          <p className="mt-2 font-bold">
-            Tech Used : React,nodeJs,ExpressJs,MongoDB,TailwindCss,React-Router
-          </p>
+          <ul className="mt-2 font-bold ">
+            Tech Used :<li>React</li>
+            <li>NodeJs</li>
+            <li>ExpressJs</li>
+            <li>MongoDB</li>
+            <li>TailwindCss</li>
+            <li>ReactRouter</li>
+            <li>Axios</li>
+          </ul>
           <div className="mt-3 flex justify-between">
             <div>
               <a

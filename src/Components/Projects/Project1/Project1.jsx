@@ -9,17 +9,22 @@ const Project1 = () => {
           <img className="h-52" src={newsImg} />
         </figure>
         <div className="card-body">
-          <h2 className="card-title text-2xl">Globe News</h2>
+          <h2 className="card-title w-fit text-2xl">Globe News</h2>
           <p className="font-bold">
             This is a Full Stack News Portal Website.You also can login and
             logout to our website and also post articles and read articles.There
             is an admin panel also to manage content.For full information visit
             github.
           </p>
-          <p className="mt-2 font-bold ">
-            Tech Used :
-            React,NodeJs,ExpressJs,Mongoose,TailwindCss,React-Router,Axios
-          </p>
+          <ul className="mt-2 font-bold ">
+            Tech Used :<li>React</li>
+            <li>NodeJs</li>
+            <li>ExpressJs</li>
+            <li>Mongoose</li>
+            <li>TailwindCss</li>
+            <li>ReactRouter</li>
+            <li>Axios</li>
+          </ul>
           <div className="mt-3 flex justify-between">
             <div>
               <a

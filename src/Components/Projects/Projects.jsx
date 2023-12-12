@@ -22,7 +22,7 @@ const Projects = () => {
           jects
         </h1>
       </div>
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 px-5 py-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 px-5  py-10">
         <Project1></Project1>
         <Project2></Project2>
         <Projects3></Projects3>

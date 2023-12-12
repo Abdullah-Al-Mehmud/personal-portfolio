@@ -1,4 +1,5 @@
 import AboutMe from "./Components/AboutMe/AboutMe";
+import Contact from "./Components/Contact/Contact";
 import Education from "./Components/Education/Education";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
@@ -15,6 +16,7 @@ function App() {
       <Skills></Skills>
       <Projects></Projects>
       <Education></Education>
+      <Contact></Contact>
       <Footer></Footer>
     </>
   );

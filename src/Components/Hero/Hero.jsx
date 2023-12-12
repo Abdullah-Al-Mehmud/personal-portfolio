@@ -36,9 +36,14 @@ const Hero = () => {
             creating websites and applications that look good and work smoothly.
           </p>
           <div className="mt-6">
-            <button className="px-6 text-sm py-3 bg-white text-black font-bold rounded-full">
+            <a
+              href="/src/assets/images/mehmudsResume.pdf"
+              download
+              target="_blank"
+              rel="noreferrer"
+              className="px-6 text-sm py-3 bg-white text-black font-bold rounded-full">
               Download Resume{" "}
-            </button>
+            </a>
           </div>
         </div>
         <div className="w-full md:mt-0 mt-14">

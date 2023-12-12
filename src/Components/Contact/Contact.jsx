@@ -1,8 +1,14 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import contactImg from "../../assets/images/contact.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const Contact = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -26,7 +32,9 @@ const Contact = () => {
   };
 
   return (
-    <div className="md:flex items-center max-w-6xl mt-36 mx-auto">
+    <div
+      data-aos="fade-up"
+      className="md:flex items-center max-w-6xl mt-36 mx-auto">
       <div className="w-full">
         <form ref={form} onSubmit={sendEmail}>
           <div className="w-full bg-gradient-to-r from-[#9926f0f2] to-[#d122e3f2] h-auto rounded-3xl pt-20">
